@@ -16,11 +16,7 @@ public class Sim {
 
 	}
 
-	public void stampaSim(){
-		System.out.println("Numero di telefono: " + numeroTelefono);
-		System.out.println("Credito disponibile: " + credito + " EUR");
 
-	}
  public void aggiungiCredito(double credito){
 		this.credito+=credito;
  }
